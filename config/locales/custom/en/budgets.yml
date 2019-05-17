@@ -7,15 +7,15 @@ en:
         votes_cast_html: "Votes cast: <span>%{amount}</span>"
         remaining:
           knapsack_html: "You still have <span>%{amount}</span> to invest."
-          approval_html: "You can still cast <span>%{amount}</span> votes. Please make sure you use all of your votes or none of them will be counted."
+          approval_html: "You can still cast <span>%{amount}</span> votes. You must cast all of your votes for them to be counted."
         no_balloted_group_yet: "You have not voted on this group yet, go vote!"
         remove: Remove vote
         voted_html:
           one: "You have voted for <span>one</span> Community Project."
           other: "You have voted for <span>%{count}</span> Community Project"
-        approval_voted_info_html: You can change your vote at any time until the close of this phase. Please make sure you use all of your votes or none of them will be counted.
-        voted_info_html: "You can change your vote at any time until the close of this phase.Please make sure you use all of your votes or none of them will be counted."
-        zero: You have not voted any investment project.
+        approval_voted_info_html: You must cast all of your votes for them to be counted. Make sure you are voting in the correct locality/area. You can use the Find/It tool if you are not sure.
+        voted_info_html: "You can change your vote at any time until the close of this phase."
+        zero: You have not voted any Community Project.
       reasons_for_not_balloting:
         not_logged_in: You must %{signin} or %{signup} to continue.
         not_verified: Only verified users can vote on investments; %{verify_account}.
@@ -160,7 +160,7 @@ en:
     progress_bar:
       assigned: "You have assigned: "
       available: "Available budget: "
-      remaining_votes_html: "You have selected <strong>%{casted_votes}</strong> of <strong>%{votes_available}</strong> projects. Please make sure you use all of your votes or none of them will be counted."
+      remaining_votes_html: "You have selected <strong>%{casted_votes}</strong> of <strong>%{votes_available}</strong> projects. You must cast all of your votes for them to be counted."
     show:
       group: Group
       phase: Actual phase
