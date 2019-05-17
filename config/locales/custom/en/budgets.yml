@@ -12,16 +12,16 @@ en:
         remove: Remove vote
         voted_html:
           one: "You have voted for <span>one</span> Community Project."
-          other: "You have voted for <span>%{count}</span> Community Project"
-        approval_voted_info_html: You must cast all of your votes for them to be counted. Make sure you are voting in the correct locality/area. You can use the Find/It tool if you are not sure.
-        voted_info_html: "You can change your vote at any time until the close of this phase."
-        zero: You have not voted any Community Project.
+          other: "You have voted for <span>%{count}</span> Community Projects."
+        approval_voted_info_html: You must cast all of your votes for them to be counted.
+        voted_info_html: "Make sure you are voting in the correct locality/area. You can use the Find/It tool if you are not sure."
+        zero: You have not voted for any Community Projects.
       reasons_for_not_balloting:
         not_logged_in: You must %{signin} or %{signup} to continue.
         not_verified: Only verified users can vote on investments; %{verify_account}.
         organization: Organizations are not permitted to vote
         not_selected: Unselected investment projects can not be supported
-        not_enough_money_html: "You have already assigned the available budget.<br><small>Remember you can %{change_ballot} at any time</small>"
+        not_enough_money_html: "You have now cast all your votes.<br>Please make sure you have voted in the correct locality/area"
         no_ballots_allowed: Selecting phase is closed
         different_heading_assigned_html: "You have already voted a different heading: %{heading_link}"
         not_enough_available_votes_html: "You have reached the maximum number of votes allowed"
