@@ -13,8 +13,8 @@ en:
         voted_html:
           one: "You have voted for <span>one</span> Community Project."
           other: "You have voted for <span>%{count}</span> Community Projects."
-        approval_voted_info_html: You must cast all of your votes for them to be counted.
-        voted_info_html: "Make sure you are voting in the correct locality/area. You can use the Find/It tool if you are not sure."
+        approval_voted_info_html: Make sure you are voting in the correct locality/area. You can use the Find/It tool if you are not sure.
+        voted_info_html: "You must cast all of your votes for them to be counted."
         zero: You have not voted for any Community Projects.
       reasons_for_not_balloting:
         not_logged_in: You must %{signin} or %{signup} to continue.
