@@ -11,10 +11,10 @@ en:
         no_balloted_group_yet: "You have not voted on this group yet, go vote!"
         remove: Remove vote
         voted_html:
-          one: "You have voted for <span>one</span> Community Project."
-          other: "You have voted for <span>%{count}</span> Community Projects."
+          one: "You have voted for the <span>one</span> Community Project below."
+          other: "You have voted for the <span>%{count}</span> Community Projects below."
         approval_voted_info_html: Make sure you are voting in the correct locality/area. You can use the Find/It tool if you are not sure.
-        voted_info_html: "Remember, you must cast all of your votes for them to be counted.<br/>Berwickshire = 5 votes, Cheviot = 3 votes, Eildon = 5 votes, Teviot & Liddesdale = 3 votes, Tweedale = 5 votes."
+        voted_info_html: "Remember, you can only vote in one area and you must cast all of your votes for them to be counted.<br/>Berwickshire = 5 votes, Cheviot = 3 votes, Eildon = 5 votes, Teviot & Liddesdale = 3 votes, Tweedale = 5 votes. <br/>You have selected the projects below. If you are happy with your selection please sign out."
         zero: You have not voted for any Community Projects.
       reasons_for_not_balloting:
         not_logged_in: You must %{signin} or %{signup} to continue.
