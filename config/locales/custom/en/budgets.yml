@@ -18,7 +18,7 @@ en:
         zero: You have not voted for any Community Projects.
       reasons_for_not_balloting:
         not_logged_in: You must %{signin} or %{signup} to continue.
-        not_verified: Only verified users can vote on investments.
+        not_verified: Only verified users can vote on investments. <a href="https://sbodata.communitychoices.scot/index.php/992557">Submit personal details and verify my account</a>.
         organization: Organizations are not permitted to vote
         not_selected: Unselected investment projects can not be supported
         not_enough_money_html: "You have now cast all your votes.<br>Please make sure you have voted in the correct locality/area"
